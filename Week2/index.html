@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title1">GDSC Hongik!</h1>
+    <input id="colorbutton" type="button" onclick="alert('성공!')" value="글자 색 바꾸기" />
+
+    <script type="text/javascript" src="script.js">
+        var text = document.querySelector('.title1');
+        text.onclick = function(){
+            text.style.color = 'red';
+        }
+
+    </script>
+</body>
+</html>
